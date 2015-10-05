@@ -12,7 +12,7 @@
 <body>
 
   <header role="banner">
-    <h1 id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php sd(); ?>/images/" alt="<?php _e("Benny's Bakery"); ?>"></a></h1>
+    <h1 id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php sd(); ?>/images/logo.svg" alt="<?php _e("Benny's Bakery"); ?>"></a></h1>
     <nav role="navigation">
       <?php
         wp_nav_menu([
