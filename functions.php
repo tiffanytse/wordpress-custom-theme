@@ -15,6 +15,3 @@ register_nav_menus([
     'primary' => 'Primary Navigation'
 ]);
 
-
-add_theme_support('post-thumbnails');
-
