@@ -16,8 +16,8 @@ Template Name: Home Page Template (or whatever you want to call it)
 <ol>
   <?php 
     $posts = get_posts([
-      'numberposts' => 3, 
-      'category_name' => 'featured'
+      'numberposts'   => 3, 
+      'category_name' => 'featured', 
     ]);
 
     foreach ($posts as $post) :
