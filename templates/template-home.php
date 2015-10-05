@@ -2,8 +2,6 @@
 /*
 Template Name: Home Page Template (or whatever you want to call it)
 */
-?>
-<?php
   get_header();
   the_post();
 ?>
@@ -13,6 +11,8 @@ Template Name: Home Page Template (or whatever you want to call it)
 <h1><?php the_title(); ?></h1>
 <?php the_content(); ?>
 
+
+<!-- List Three Featured Posts -->
 <ol>
   <?php 
     $posts = get_posts([
@@ -32,9 +32,7 @@ Template Name: Home Page Template (or whatever you want to call it)
   <?php endforeach; ?>
 </ol>
 
-<?php
-  get_footer();
-?>
+<?php get_footer(); ?>
 
 
 
