@@ -11,7 +11,8 @@ function sd () {
 }
 
 register_nav_menus([
-    // ID => WP Admin String
-    'primary' => 'Primary Navigation'
+  // ID => WP Admin String
+  'primary' => 'Primary Navigation',
+  'social' => 'Social Navigation', 
+  'footer' => 'Footer Navigation'
 ]);
-

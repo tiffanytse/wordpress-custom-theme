@@ -16,12 +16,19 @@
     <nav role="navigation">
       <?php
         wp_nav_menu([
-          'theme_location' => 'primary', // The ID from functions.php
-          'container' => '', // Delete the extra <div>
-          'menu_class' => '' // Delete the extra class on the <ul>
+          'theme_location' => 'primary',
+          'container' => false,
+          'menu_class' => ''
         ]);
       ?>
     </nav>
   </header>
 
   <main class="content">
+
+
+
+
+
+
+
