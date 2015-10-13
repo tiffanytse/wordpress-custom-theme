@@ -11,3 +11,31 @@ Tags: colours, style, theme, etc.
 .current-menu-item a{
   color: red;
 }
+
+.featured-posts{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-posts li{
+  text-align: center;
+  border-top: 1px solid #ccc; 
+  padding: 2em 0;
+}
+
+@media only screen and (min-width: 48em){
+  .featured-posts li{
+    border-top: 0; /*remove mobile stacked border*/ 
+    padding: 0; /*remove mobile padding*/
+    width: 30%;
+    float: left;
+    margin: 2em 1.5%;
+  }
+}
+
+
+footer{
+  clear: both;
+}

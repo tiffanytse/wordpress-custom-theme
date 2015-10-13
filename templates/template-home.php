@@ -13,7 +13,7 @@ Template Name: Home Page Template (or whatever you want to call it)
 
 
 <!-- List Three Featured Posts -->
-<ol>
+<ol class="featured-posts">
   <?php 
     $posts = get_posts([
       'numberposts'   => 3, 
@@ -25,6 +25,7 @@ Template Name: Home Page Template (or whatever you want to call it)
   ?>
 
   <li>
+    <?php the_post_thumbnail('thumbnail'); ?>
     <h2><?php the_title(); ?></h2>
     <span><?php the_excerpt(); ?></span>
   </li>
